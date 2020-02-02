@@ -1,4 +1,4 @@
-package ru.geekbrains.catch_the_drop;
+package elementaryJava;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -7,7 +7,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.io.IOException;
 
-public class GameWindow extends JFrame{
+public class GameWindow extends JFrame {
 
     private static GameWindow game_window;
     private static long last_frame_time;
